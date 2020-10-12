@@ -11,5 +11,5 @@ data class _obstacleCustomData(
     @SerializedName("_localRotation") val _localRotation: List<Double>? = null,
     @SerializedName("_track") var _track: String? = null,
     @SerializedName("_noteJumpMovementSpeed") var _noteJumpMovementSpeed: Double? = null,
-    @SerializedName("_noteJumpStartBeatOffset  ") var _noteJumpStartBeatOffset: Double? = null
+    @SerializedName("_noteJumpStartBeatOffset") var _noteJumpStartBeatOffset: Double? = null
 )
